@@ -1,63 +1,88 @@
 <html lang="pt-br"> 
 <head>
 	<meta charset="UTF-8">
-    <title>Portfolio</title>  
+    <title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">  
+
 </head>
+
 <body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="https://www.minasprogramam.com">Formação</a></li>
+                <li><a href="#">Portfólio</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <main class="principal">
+            <article id="sobre">
+                <section>
+                    <img class="minha-imagem" src="imagem/WhatsApp Image 2024-07-16 at 15.20.06.jpeg" alt="">
+                </section>
+                <section>
+                    <h1 class="titulo">Maria Diellen da Silva</h1>
+                    <h2 class="subtitulo">Desenvolvedora Front End </h2>
+                    <p class="primeiro-paragrafo">Sou desenvolvedora frontend, apaixonada por criar experiências digitais. Adoro transformar ideias e designs em interfaces interativas, utilizando HTML, CSS, e JavaScript, além de frameworks como React, para dar vida a projetos dinâmicos. Tenho um olhar apurado para detalhes e foco na usabilidade, sempre a pensar na melhor experiência para o cliente. Gosto de colaborar com equipes multifuncionais para garantir que o resultado final seja bonito, rápido e acessível para todos.</p>
+                </section>
+            </article>
+        </main>
 
-<header>
+        <section id="formacao">
+            <h2 class="titulo_formacao">Formação</h2>
+            <div class="conteudo_formacao">
+                <article class="info_formacao">
+                    <h3>Curso de Programação</h3>
+                    <span><a href="#">Instituto Minas Programam</a></span>
+                    <p>Instito Minas Programam <br>
+						Introdução a Programação Front end <br>
+						08/2024 á 12/2024
+						</p>
+                    </article>
+                <article class="info_formacao">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <span><a href="#">Universidade Anhanguera</a></span>
+                    <p>Análise e Desenvolvimento de Sistemas<br>
+						08/2024 á 12/2026
+						</p>
+                </article>
+            </div>
+        </section>
 
-	<nav>
-	  <ul>
-	  	<li>Formação</li>
-	  	<li>Projetos</li>
-		<li>Contato</li>
-	  </ul>
-	</nav>
-
-
-	<img src="imagem/WhatsApp Image 2024-07-16 at 15.20.06.jpeg" alt="Minha Foto"/>
-    <h1>Maria Diellen</h1>
-	<h3>Desenvolvedora Web</h3>
-	<p>Sou desenvolvedora frontend, apaixonada por criar experiências digitais. Adoro transformar ideias e designs em interfaces interativas, utilizando HTML, CSS, e JavaScript, além de frameworks como React, para dar vida a projetos dinâmicos. Tenho um olhar apurado para detalhes e foco na usabilidade, sempre a pensar na melhor experiência para o cliente. Gosto de colaborar com equipes multifuncionais para garantir que o resultado final seja bonito, rápido e acessível para todos.</p>
-
-</header>
-
-<main>
-		<div>
-		<header>
-			<h2>Formação</h2>
-			<h3>Curso de Programação</h3>
-				<p>Instito Minas Programam <br>
-				Introdução a Programação Front end <br>
-				08/2024 á 12/2024
-				</p>
-			<h3>Universidade Anhanguera</h3>
-			<p>Análise e Desenvolvimento de Sistemas<br>
-			08/2024 á 12/2026
-			</p>
-		</header>
-		</div>
-
-			<div>
-			<header>
-				<h2>Projetos</h2>
-				<h3>Portfólio </h3>
-					<p>Desenvolvedora Web
-					Independent
-					Instituo Minas Programam
-					Projeto desenvolvido durante o curso do Instituto Minas Programam com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.</p>
-			</header>
+		<section id="portfolio">
+            <h2 class="titulo_potfolio">Portfólio</h2>
+            <div class="conteudo_portifolio">
+                <article class="info_portfolio">
+                    <h3 class="segundo_titulo_portfolio">Portfólio</h3>
+					<p>Desenvolvedora Web</p>
+                    <span><a href="#">Instituto Minas Programam</a></span>
+                    <p>Projeto desenvolvido durante o curso do Instituto Minas Programam com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.
+						</p>
+                    </article>
+            </div>
+        </section>
+    </header>
+	<footer id="rodape">
+		<div class="rodape_conteudo">
+			<div class="rodape_item">
+				<img class="rodape_icon" src="imagem/icons8-e-mail-96.png" alt="Icon e-mail">
+				<span>mariadiellen03@gmail.com</span>
 			</div>
-</main>
-
-	
-<footer>
-	
-	<a href="https://www.linkedin.com/in/maria-diellen/"target="_blank"> Linkedin </a><br>
-	<a href="https://github.com/MariaDiellen" target="_blank"> Github </a>
-
-</footer>
-
+			<div class="rodape_item">
+					<img class="rodape_icon" src="imagem/icons8-linkedin-48.png" alt="Icon linkedin">
+					<span><a href="https://www.linkedin.com/in/maria-diellen/"target="_blank">Linkedin</a></span>
+				</div>
+				<div class="rodape_item">
+						<img  class="rodape_icon" src="imagem/icons8-github-60.png" alt="Icon e-github">
+						<span><a href="https://github.com/MariaDiellen" target="_blank">Github</a></span>
+					</div>
+		</div>
+	</footer>
 </body>
+
 </html>
+		
